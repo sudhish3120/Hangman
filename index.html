@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hangman</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Orbitron:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <div class="container title">
+      <h1>HANGMAN</h1>
+      <h3>Click on an alphabet or press a key to guess the word. Click hint to get a clue.</h3>
+    </div>
+
+
+<div class="container alphabet-buttons">
+
+  <div class="row">
+    <div class="wrapper-btn">
+      <button type="button" name="button" class="btn" >A</button>
+      <button type="button" name="button" class="btn" >B</button>
+      <button type="button" name="button" class="btn" >C</button>
+      <button type="button" name="button" class="btn" >D</button>
+      <button type="button" name="button" class="btn" >E</button>
+      <button type="button" name="button" class="btn" >F</button>
+      <button type="button" name="button" class="btn" >G</button>
+      <button type="button" name="button" class="btn" >H</button>
+      <button type="button" name="button" class="btn" >I</button>
+      <button type="button" name="button" class="btn" >J</button>
+      <button type="button" name="button" class="btn" >K</button>
+      <button type="button" name="button" class="btn" >L</button>
+      <button type="button" name="button" class="btn" >M</button>
+    </div>
+
+  </div>
+  <div class="row">
+    <div class="wrapper-btn">
+      <button type="button" name="button" class="btn">N</button>
+      <button type="button" name="button" class="btn">O</button>
+      <button type="button" name="button" class="btn">P</button>
+      <button type="button" name="button" class="btn">Q</button>
+      <button type="button" name="button" class="btn">R</button>
+      <button type="button" name="button" class="btn">S</button>
+      <button type="button" name="button" class="btn">T</button>
+      <button type="button" name="button" class="btn">U</button>
+      <button type="button" name="button" class="btn">V</button>
+      <button type="button" name="button" class="btn">W</button>
+      <button type="button" name="button" class="btn">X</button>
+      <button type="button" name="button" class="btn">Y</button>
+      <button type="button" name="button" class="btn">Z</button>
+    </div>
+
+  </div>
+</div>
+
+<div class="container gameplay">
+  <h3 class="category">The chosen Category is </h3>
+  <h3 class="dashes"></h3>
+  <!-- this h3 is temporary: going to be removed when js is added -->
+  <h3 class="lives">You have 10 lives</h3>
+  <!-- <h3 class="clue">Clue</h3> -->
+
+  <div class="container">
+    <!-- <button type="button" name="button" class="btn  btn-lg hint">Hint</button> -->
+    <button type="button" name="button" class="btn  btn-lg playAgain">Play Again</button>
+  </div>
+
+
+</div>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="hangman.js" charset="utf-8"></script>
+  </body>
+</html>

@@ -1,0 +1,157 @@
+
+body {
+  text-align: center;
+  color: white;
+  background-color: #071a52;
+  color: #17b978;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+  padding: 2rem 0 0 0;
+
+}
+.title h1{
+  font-size: 7rem;
+  color: #a7ff83;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 15px;
+}
+.title h3{
+  width: 60%;
+  margin: auto;
+}
+
+.alphabet-buttons {
+  margin: auto;
+  padding: 2rem;
+}
+.alphabet-buttons button{
+  margin: 0.5rem;
+  background-color: #a7ff83;
+  border-width: 0;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 15px;
+  color: #071a52;
+  font-weight: 700;
+}
+.alphabet-buttons button:hover{
+  font-size: 1.5rem;
+  transition: 0.2s;
+  background-color: #a7ff83;
+  color: #071a52;
+}
+.alphabet-buttons button:active{
+  font-size: 1.5rem;
+  transition: 0.2s;
+  background-color: #a7ff83;
+  color: #071a52;
+}
+
+
+
+.wrapper-btn {
+  margin: auto;
+}
+
+.gameplay button{
+  background-color:  #17b978;
+  border-width: 0;
+  color: #071a52;
+  margin: 2rem 1rem 4rem 1rem;
+  font-weight: 600;
+}
+.gameplay button:hover{
+  background-color:  #a7ff83;
+  color: #071a52;
+}
+.gameplay button:active{
+  background-color:  #a7ff83;
+  color: #071a52;
+}
+
+.gameplay .clue{
+  margin: 2rem 0 0 0;
+}
+.gameplay h3{
+  font-size: 1.5rem;
+}
+.gameplay .dashes{
+  padding-bottom: 2rem;
+  font-size: 2rem;
+  letter-spacing: 10px;
+}
+
+
+@media (max-width: 1200px) {
+  .alphabet-buttons button{
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
+
+@media (max-width: 800px) {
+  .title h1{
+    font-size: 4rem;
+    color: #a7ff83;
+  }
+
+  .title h3{
+    width: 80%;
+    margin: auto;
+    font-size: 1.5rem;
+  }
+  .alphabet-buttons {
+    margin: auto;
+    padding: 1rem;
+  }
+  .alphabet-buttons button{
+    margin: 0.25rem;
+    background-color: #a7ff83;
+    border-width: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 15px;
+    color: #071a52;
+    font-weight: 700;
+  }
+
+
+}
+
+/* javascript classes */
+.wrongLetter{
+  background-color: red;
+}
+
+.youWin{
+  width: 0;
+  padding: 1rem 4rem 1rem 4rem;
+  background-color: #a7ff83;
+  color: #071a52;
+  font-size: 3rem;
+  letter-spacing: 25px;
+  transition: 1s;
+  font-family: 'Orbitron', sans-serif;
+}
+.youLose{
+  width: 0;
+  padding: 1rem 4rem 1rem 4rem;
+  background-color: #a7ff83;
+  color: #071a52;
+  font-size: 3rem;
+  letter-spacing: 25px;
+  transition: 1s;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.youWinStyle{
+  background-color: #071a52;
+  color: #a7ff83
+}
+
+.btnClicked{
+  background-color: grey !important;
+}
